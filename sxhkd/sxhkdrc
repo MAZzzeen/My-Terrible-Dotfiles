@@ -4,7 +4,14 @@
 
 # terminal emulator
 super + Return
-	qterminal
+	kitty
+
+# control picom
+super + p
+	picom
+
+super + shift + p
+	killall picom
 
 # program launcher
 super + a
@@ -47,6 +54,9 @@ super + y
 # swap the current node and the biggest window
 super + g
 	bspc node -s biggest.window
+
+super + h
+	kitty htop
 
 Print
 	flameshot gui

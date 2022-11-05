@@ -18,12 +18,16 @@ Plug 'https://github.com/ap/vim-css-color' " CSS Color Preview
 Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Retro Scheme
 Plug 'neoclide/coc.nvim' , {'branch': 'release'}  " Auto Completion
 Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
+Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
+" Plug 'https://github.com/elkowar/yuck.vim'
 Plug 'https://github.com/gpanders/nvim-parinfer'
 Plug 'numirias/semshi', { 'do': ':UpdateRemotePlugins' }
+" Plug 'https://github.com/vim-python/python-syntax' " bruh
 
 source $HOME/.config/nvim/plug-config/coc.vim
+" source $HOME/.local/share/nvim/rplugin.vim
 let g:python_highlight_all = 1
 
 set encoding=UTF-8
@@ -41,14 +45,23 @@ nmap <F8> :TagbarToggle<CR>
 
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
-let g:neoterm_default_mod="belowright"
 
+" --- Just Some Notes ---
+" :PlugClean :PlugInstall :UpdateRemotePlugins
+"
+" :CocInstall coc-python
+" :CocInstall coc-clangd
+" :CocInstall coc-snippets
+" :CocCommand snippets.edit... FOR EACH FILE TYPE
+
+" air-line
 let g:airline_powerline_fonts = 1
 
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
 endif
 
+" airline symbols
 let g:airline_left_sep = ''
 let g:airline_left_alt_sep = ''
 let g:airline_right_sep = ''
@@ -56,6 +69,4 @@ let g:airline_right_alt_sep = ''
 let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
-
-autocmd BufWinEnter,WinEnter term://* startinsert
 
