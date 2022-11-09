@@ -1,5 +1,5 @@
-# My Terrible Dotfiles
-My dotfiles that dont look good but feel free to play with them
+# My Decent Dotfiles
+Feel free to play around with them
 
 
 ![alt text](https://i.imgur.com/Ba7xxjN.jpg)
