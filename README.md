@@ -6,7 +6,7 @@ Feel free to play around with them
 
 I will mostly use this repository to backup my dotfiles
 
-Shell: Fish
+Shell: Fish\n
 Terminal: Stimple Terminal
 Wallpaper: Wallpaper engine
 Bar: Polybar
