@@ -1,29 +1,13 @@
 --- config.def.h
 +++ config.def.h
-@@ -141,12 +141,6 @@ static unsigned int defaultrcs = 257;
-  */
- static unsigned int cursorshape = 2;
+@@ -162,8 +161,8 @@ static MouseShortcut mshortcuts[] = {
  
--/*
-- * Whether to use pixel geometry or cell geometry
-- */
--
--static Geometry geometry = CellGeometry;
--
- /*
-  * Default columns and rows numbers
-  */
-@@ -154,13 +148,6 @@ static unsigned int cursorshape = 2;
- static unsigned int cols = 80;
- static unsigned int rows = 24;
+ MouseKey mkeys[] = {
+ 	/* button               mask            function        argument */
+-	{ Button4,              ShiftMask,      kscrollup,      {.i =  mousescrollincrement} },
+-	{ Button5,              ShiftMask,      kscrolldown,    {.i =  mousescrollincrement} },
++	{ Button4,              ShiftMask,      kscrollup,      {.i =  1} },
++	{ Button5,              ShiftMask,      kscrolldown,    {.i =  1} },
+ };
  
--/*
-- * Default width and height (including borders!)
-- */
--
--static unsigned int width = 564;
--static unsigned int height = 364;
--
- /*
-  * Default colour and shape of the mouse cursor
-  */
+ /* Internal keyboard shortcuts. */
