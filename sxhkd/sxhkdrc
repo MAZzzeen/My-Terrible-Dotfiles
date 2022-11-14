@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	kitty
+	st
 
 # control picom
 super + p
@@ -38,7 +38,7 @@ super + ctrl + f
 	firefox
 # thunar
 super + ctrl + t
-	thunar
+	st ranger
 # close and kill
 super + {_,shift + }w
 	bspc node -{c,k}
@@ -56,7 +56,7 @@ super + g
 	bspc node -s biggest.window
 
 super + h
-	kitty htop
+	st bashtop
 
 Print
 	flameshot gui
