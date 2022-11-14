@@ -13,3 +13,5 @@ Terminal: Simple Terminal
 Wallpaper: https://steamcommunity.com/sharedfiles/filedetails/?id=2008192384&searchtext=Made+in+Abyss
 
 Bar: Polybar
+
+File Manager: Ranger
