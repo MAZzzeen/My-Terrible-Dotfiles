@@ -14,4 +14,4 @@ Wallpaper: https://steamcommunity.com/sharedfiles/filedetails/?id=2008192384&sea
 
 Bar: Polybar
 
-File Manager: Ranger
+File Manager: Rangee
