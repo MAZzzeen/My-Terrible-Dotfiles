@@ -6,14 +6,18 @@ Feel free to play around with them
 
 I will mostly use this repository to backup my dotfiles
 
-Shell: Fish
-
 Terminal: Kitty
 
-Wallpaper: https://wallpaperaccess.com/download/8k-simple-212811
+Shell: Fish
+
+Prompt: Starship
 
 Bar: Polybar
 
 File Manager: Ranger
 
-Prompt: Starship
+Wallpaper: https://wallpaperaccess.com/download/8k-simple-212811
+
+
+
+
