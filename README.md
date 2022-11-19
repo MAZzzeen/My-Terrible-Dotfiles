@@ -2,15 +2,15 @@
 Feel free to play around with them
 
 
-![alt text](https://i.imgur.com/Qle24mg.jpg)
+![alt text](https://i.imgur.com/eeYqimL.png)
 
 I will mostly use this repository to backup my dotfiles
 
 Shell: Fish
 
-Terminal: Simple Terminal
+Terminal: Kitty
 
-Wallpaper: https://steamcommunity.com/sharedfiles/filedetails/?id=2008192384&searchtext=Made+in+Abyss
+Wallpaper: https://wallpaperaccess.com/download/8k-simple-212811
 
 Bar: Polybar
 
