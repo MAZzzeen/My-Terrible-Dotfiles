@@ -2,7 +2,7 @@
 Feel free to play around with them
 
 
-![alt text](https://i.imgur.com/eeYqimL.png)
+![alt text](https://i.imgur.com/YNH9tui.jpg)
 
 I will mostly use this repository to backup my dotfiles
 
