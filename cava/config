@@ -7,7 +7,7 @@
 ; mode = normal
 
 # Accepts only non-negative values.
- framerate = 120
+ framerate = 240
 
 # 'autosens' will attempt to decrease sensitivity if the bars peak. 1 = on, 0 = off
 # new as of 0.6.0 autosens of low values (dynamic range)
@@ -176,7 +176,7 @@
 # Percentage value for integral smoothing. Takes values from 0 - 100.
 # Higher values means smoother, but less precise. 0 to disable.
 # DEPRECATED as of 0.8.0, use noise_reduction instead
- integral = 77
+; integral = 77
 
 # Disables or enables the so-called "Monstercat smoothing" with or without "waves". Set to 0 to disable.
 ; monstercat = 0
@@ -195,7 +195,7 @@
 # Noise reduction, float 0 - 1. default 0.77
 # the raw visualization is very noisy, this factor adjusts the integral and gravity filters to keep the signal smooth
 # 1 will be very slow and smooth, 0 will be fast but noisy.
-; noise_reduction = 0.77
+noise_reduction = 0.97
 
 
 [eq]
