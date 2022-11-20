@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	st
+	kitty -1
 
 # control picom
 super + p
@@ -14,8 +14,8 @@ super + shift + p
 	killall picom
 
 # program launcher
-super + a
-	rofi -show drun 
+super + space
+	rofi -show drun -show-icons
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -29,16 +29,19 @@ super + Escape
 super + alt + {q,r}
 	bspc {quit,wm -r}
 
+
+super + shift + i
+	~/winhide
+
+
 # close no kill
 super + q
-	bspc node -{c}
+	kitty -1 ranger
 
 # firefox
 super + ctrl + f
 	firefox
-# thunar
-super + ctrl + t
-	st ranger
+
 # close and kill
 super + {_,shift + }w
 	bspc node -{c,k}
@@ -56,7 +59,7 @@ super + g
 	bspc node -s biggest.window
 
 super + h
-	st bashtop
+	kitty -1 bashtop
 
 Print
 	flameshot gui
