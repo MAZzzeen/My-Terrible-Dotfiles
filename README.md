@@ -20,7 +20,7 @@ File Manager: Ranger
 
 Top: Bashtop
 
-Wallpaper: https://wallpaperaccess.com/download/8k-simple-212811
+Wallpaper: https://www.deviantart.com/thisahami/art/Nord-theme-wallpaper-919137987
 
 
 
