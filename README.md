@@ -20,7 +20,7 @@ File Manager: Ranger
 
 Top: Bashtop
 
-Wallpaper: https://www.deviantart.com/thisahami/art/Nord-theme-wallpaper-91913798
+Wallpaper: https://www.deviantart.com/thisahami/art/Nord-theme-wallpaper-919137987
 
 
 
