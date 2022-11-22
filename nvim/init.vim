@@ -1,4 +1,4 @@
-:set number
+set number
 :set relativenumber
 :set autoindent
 :set tabstop=4
@@ -58,4 +58,7 @@ let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
 
 autocmd BufWinEnter,WinEnter term://* startinsert
+colorscheme nord
 
+highlight Normal ctermbg=0
+highlight NonText ctermbg=0
