@@ -2,7 +2,7 @@
 Feel free to play around with them
 
 
-![alt text](https://i.imgur.com/9XZyFpF.jpg)
+![alt text](https://i.imgur.com/UdKZnKX.png)
 
 I will mostly use this repository to backup my dotfiles
 
@@ -20,7 +20,7 @@ File Manager: Ranger
 
 Top: Bashtop
 
-Wallpaper: https://wallhaven.cc/w/6oxgp6
+Wallpaper: https://hdwallpaperim.com/minimalism-earth-simple/
 
 
 
