@@ -2,13 +2,13 @@
 Feel free to play around with them
 
 
-![alt text](https://i.imgur.com/UdKZnKX.png)
+![alt text](https://i.imgur.com/wLiUMd7.png)
 
 I will mostly use this repository to backup my dotfiles
 
 The colors are inspired by Nord
 
-Terminal: Kitty
+Terminal: Alacritty
 
 Shell: Fish
 
@@ -20,7 +20,7 @@ File Manager: Ranger
 
 Top: Bashtop
 
-Wallpaper: https://hdwallpaperim.com/minimalism-earth-simple/
+Wallpaper: https://www.wallpaperflare.com/minimalism-4k-for-mac-desktop-wallpaper-tzymg
 
 
 
