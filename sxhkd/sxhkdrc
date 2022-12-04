@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	kitty -1
+	alacritty
 
 # control picom
 super + p
@@ -36,11 +36,14 @@ super + shift + i
 
 # close no kill
 super + q
-	kitty -1 ranger
+	alacritty --command ranger
 
 # firefox
 super + ctrl + f
 	firefox
+
+super + c
+	alacritty --command cava
 
 # close and kill
 super + {_,shift + }w
@@ -59,7 +62,7 @@ super + g
 	bspc node -s biggest.window
 
 super + h
-	kitty -1 bashtop
+	alacritty --command btop
 
 Print
 	flameshot gui
