@@ -4,7 +4,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc monitor -d 1 2 3 4 5 6 7 8 9 10
 
-bspc config border_width         2
+bspc config border_width         1
 bspc config window_gap           8
 bspc config top_padding			 25
 
@@ -25,7 +25,7 @@ bspc rule -a Screenkey manage=off
 bspc rule -a override-redirect = true
 
 pgrep -x polybar > /dev/null || polybar main &
-feh --bg-fill $HOME/Pictures/index.jpg &
+feh --bg-fill $HOME/Downloads/968864.png &
 picom &
 lxpolkit &
 setxkbmap -option grp:alt_shift_toggle us,ar &
