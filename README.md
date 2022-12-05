@@ -2,7 +2,7 @@
 Feel free to play around with them
 
 
-![alt text](https://i.imgur.com/wLiUMd7.png)
+![alt text](https://i.imgur.com/YRNSsgi.png)
 
 I will mostly use this repository to backup my dotfiles
 
@@ -20,7 +20,7 @@ File Manager: Ranger
 
 Top: Bashtop
 
-Wallpaper: https://www.wallpaperflare.com/minimalism-4k-for-mac-desktop-wallpaper-tzymg
+Wallpaper: https://wall.alphacoders.com/big.php?i=968864
 
 
 
