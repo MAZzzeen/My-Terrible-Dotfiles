@@ -20,7 +20,7 @@ File Manager: Ranger
 
 Top: Bashtop
 
-Wallpaper: https://wall.alphacoders.com/big.php?i=968864
+Wallpaper: https://wall.alphacoders.com/big.php?i=1268348
 
 
 
