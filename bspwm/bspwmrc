@@ -25,7 +25,7 @@ bspc rule -a Screenkey manage=off
 bspc rule -a override-redirect = true
 
 pgrep -x polybar > /dev/null || polybar main &
-feh --bg-fill $HOME/Downloads/968864.png &
+feh --bg-fill $HOME/Pictures/1268348.jpg &
 picom &
 lxpolkit &
 setxkbmap -option grp:alt_shift_toggle us,ar &
