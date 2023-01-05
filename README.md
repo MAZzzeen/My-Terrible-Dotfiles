@@ -16,7 +16,7 @@ Prompt: Starship
 
 Bar: Polybar
 
-File Manager: Ranger
+File Manager: Lf
 
 Top: Bashtop
 
